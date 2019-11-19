@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lhx.flowtagdemo.recycler.CheckableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="6dp"
+    android:id="@+id/root_layout"
+    android:background="@drawable/type_select_bg_color"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="18dp"
+        android:paddingLeft="18dp"
+        android:gravity="center"
+        android:textSize="14sp"
+        tools:text="医药"
+        android:id="@+id/alive_type_tv"
+        android:textColor="#60000000"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp" />
+
+
+
+
+</com.lhx.flowtagdemo.recycler.CheckableLayout>
